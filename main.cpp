@@ -2,9 +2,15 @@
 
 using namespace std;
 
-int main(int argc, const char * argv[]) {
+void square(int x){
+    cout << (x * x) << endl;
+}
 
-    cout << "Github Test" << endl;
+int main(int argc, const char * argv[]) {
+    int x;
+    cout << "Enter a value to be squared: ";
+    cin >> x;
+    square(x);
 
     return 0;
 }

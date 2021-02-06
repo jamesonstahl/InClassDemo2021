@@ -3,12 +3,12 @@
 
 using namespace std;
 
-void power(int base, int exp){
+void power(double base, int exp){
     cout << pow(base, exp) << endl;
 }
 
 int main(int argc, const char * argv[]) {
-    int base;
+    double base;
     int exp;
     cout << "Enter a value to be raised to an exponent: ";
     cin >> base;

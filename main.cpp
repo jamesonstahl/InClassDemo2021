@@ -3,8 +3,8 @@
 
 using namespace std;
 
-void power(double base, int exp){
-    cout << pow(base, exp) << endl;
+int power(double base, int exp){
+    return pow(base, exp);
 }
 
 int main(int argc, const char * argv[]) {
@@ -14,7 +14,7 @@ int main(int argc, const char * argv[]) {
     cin >> base;
     cout << "Enter a value to be the exponent: ";
     cin >> exp;
-    power(base, exp);
+    cout << power(base, exp) << endl;
 
     return 0;
 }
